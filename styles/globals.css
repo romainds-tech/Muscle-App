@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container{
+  position: absolute;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Bigtitle{
+  margin-top: 50px; 
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;;
+}
+
+.arrow{
+  margin-left: 10px;
+  height: 56px;
+}
+
+.content-page{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
